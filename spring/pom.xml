@@ -77,7 +77,7 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-  			<plugin>
+<!-->  			<plugin>
     			<groupId>io.openliberty.boost</groupId>
     			<artifactId>boost-maven-plugin</artifactId>
     			<version>0.1</version>
@@ -85,11 +85,10 @@
       				<execution>
         				<goals>
           					<goal>package</goal>
-							<goal>docker-build</goal>
         				</goals>
      				</execution>
    				</executions>
-  			</plugin>
+  			</plugin> -->
   			<plugin>
     			<groupId>io.openliberty.boost</groupId>
     			<artifactId>boost-maven-plugin</artifactId>

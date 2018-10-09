@@ -1,3 +1,3 @@
 package gcc.demos.kotlin.spring
 
-data class Greeting(val id: Long, val greet: String, val name: String)
+data class Greeting(val message: String, val name: String)
