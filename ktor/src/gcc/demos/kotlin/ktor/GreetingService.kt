@@ -8,7 +8,7 @@ import io.ktor.request.receive
 import io.ktor.response.*
 import io.ktor.http.*
 
-var greet: String = "Hello"
+var greet = "Hello"
 
 fun Application.main() {
 
