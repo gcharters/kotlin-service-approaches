@@ -1,4 +1,5 @@
-# kotlin-service-approaches
+# Kotlin Service Approaches
+
 Different ways to do server-side services in Kotlin
 
 Examples cover Spring Boot, Ktor and JAX-RS
