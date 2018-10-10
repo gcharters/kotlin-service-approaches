@@ -3,29 +3,35 @@ Different ways to do server-side services in Kotlin
 
 Examples cover Spring Boot, Ktor and JAX-RS
 
-Each example provide the same API
+## API
 
-GET localhost:8080/greeting returns a 405 with an message
+Each example provides the same API
 
-GET localhost:8080/greeting/{name} 
+GET http://localhost:8080/greeting returns a 405 with an message
+
+GET http://localhost:8080/greeting/{name} 
 ```JSON
 {
   "name": "{name}",
   "message": "Hello"
 }
+
 ```
-POST localhost:8080/greeting with body
+POST http://localhost:8080/greeting with body
 ```JSON
 {
   "name": "Name",
   "message": "Bonjour"
 }
 ```
+
 Changes the greeting message to 'Bonjour'
+
+## Build
 
 Each demo is designed to be built separately.
 
-## Spring
+### Spring
 
 ```
 cd spring
@@ -33,14 +39,14 @@ cd spring
 java -jar target/spring-0.0.1-SNAPSHOT.jar
 ```
 
-## Ktor
+### Ktor
 
 ```
 cd ktor
 ./gradlew :run
 ```
 
-## Java EE
+### Java EE
 
 ```
 cd javaee
