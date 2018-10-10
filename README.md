@@ -27,7 +27,7 @@ POST http://localhost:8080/greeting with body
 
 Changes the greeting message to 'Bonjour'
 
-## Build
+## Build & Run
 
 Each demo is designed to be built separately.
 
