@@ -8,7 +8,7 @@ Examples cover Spring Boot, Ktor and JAX-RS
 
 Each example provides the same API
 
-GET http://localhost:8080/greeting returns a 405 with an message
+GET http://localhost:8080/greeting returns a 405 with a message
 
 GET http://localhost:8080/greeting/{name} 
 ```JSON
@@ -26,7 +26,7 @@ POST http://localhost:8080/greeting with body
 }
 ```
 
-Changes the greeting message to 'Bonjour'
+Changes the greeting message to 'Bonjour', the name is ignored.
 
 ## Build & Run
 
@@ -47,7 +47,7 @@ cd ktor
 ./gradlew :run
 ```
 
-### Java EE
+### JAX-RS (Java EE)
 
 ```
 cd javaee
